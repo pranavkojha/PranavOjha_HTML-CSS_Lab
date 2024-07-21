@@ -37,11 +37,12 @@ nav {
   font-size: 20px;
 }
 
-.navbar li:nth-child(1):hover #dropdown1, .navbar li:nth-child(2):hover #dropdown2, .navbar li:nth-child(3):hover #dropdown3 {
+.navbar li:nth-child(2):hover #dropdown2, .navbar li:nth-child(3):hover #dropdown3 {
   display: block;
+
 }
 
-#dropdown1, #dropdown2, #dropdown3 {
+#dropdown2, #dropdown3 {
   display: none;
   position: absolute;
   background-color: grey;
