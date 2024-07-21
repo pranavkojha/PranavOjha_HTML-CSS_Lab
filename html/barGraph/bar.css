@@ -1,0 +1,67 @@
+main {
+  position: absolute;
+  top: 18%;
+  left: 40%;
+  background-color: #beb6b6;
+}
+
+section {
+  display: inline-block;
+}
+
+p {
+  padding: 25px;
+}
+
+article {
+  width: 40px;
+  height: 300px;
+  margin: 20px;
+  background-color: rgb(193, 197, 197);
+}
+
+h1 {
+  text-align: center;
+}
+
+#bar1 {
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  animation-name: barplot1;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes barplot1 {
+  0% {height: 100%; background-color: white;}
+  100% {height: 70%; background-color: white;}
+}
+
+#bar2 {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  animation-name: barplot2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes barplot2 {
+  0% {height: 100%; background-color: white;}
+  100% {height: 60%; background-color: white;}
+}
+
+#bar3 {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  animation-name: barplot3;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes barplot3 {
+  0% {height: 100%; background-color: white;}
+  100% {height: 20%; background-color: white;}
+}
